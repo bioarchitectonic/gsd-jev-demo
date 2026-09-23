@@ -1,0 +1,8 @@
+{
+  "execution_status": "not_run",
+  "model": "jev-1.13.0",
+  "case_id": "eval-07",
+  "question_version": "0.2.0",
+  "request_sha256": "583b2a8275a560b7ccd1b8f239677fff20de745422f5705ad0e46aee08bea354",
+  "playground_url": "https://console.typesafe.ai/decode"
+}

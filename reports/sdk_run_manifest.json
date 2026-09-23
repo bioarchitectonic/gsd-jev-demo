@@ -1,0 +1,95 @@
+{
+  "created_at_utc": "2026-09-21T23:31:35.620740+00:00",
+  "requested_model": "jev-1.13.0",
+  "planned_sequence": [
+    "pilot-01",
+    "pilot-02",
+    "pilot-03",
+    "pilot-04",
+    "pilot-05",
+    "pilot-06",
+    "pilot-06",
+    "pilot-06"
+  ],
+  "automatic_retries": 0,
+  "execution_status": "completed",
+  "records": [
+    {
+      "attempt": 1,
+      "case_id": "pilot-01",
+      "record_path": "reports/sdk_records/c0e713c6-8f33-4960-9c36-5921ccdace2f.json",
+      "record_id": "c0e713c6-8f33-4960-9c36-5921ccdace2f",
+      "request_sha256": "041f9cc9aa8561c48517f19313d495a8da5bb48ed133d6dfda2958e4f36b0e08",
+      "request_id": "req_01a0c64f89f37acfa1d4b121f7478247",
+      "execution_status": "completed"
+    },
+    {
+      "attempt": 2,
+      "case_id": "pilot-02",
+      "record_path": "reports/sdk_records/cd03850a-7789-482e-8f2a-448360bb42c0.json",
+      "record_id": "cd03850a-7789-482e-8f2a-448360bb42c0",
+      "request_sha256": "e946b8b1b37865985ffb686340a9ba9e1a61e42ef3c223ab4a5644e1be546a0f",
+      "request_id": "req_01a0c64f8bfa73ef865def2fb773c33d",
+      "execution_status": "completed"
+    },
+    {
+      "attempt": 3,
+      "case_id": "pilot-03",
+      "record_path": "reports/sdk_records/587f9032-effb-4176-aad5-58a43ae5ee17.json",
+      "record_id": "587f9032-effb-4176-aad5-58a43ae5ee17",
+      "request_sha256": "69afbf2c2aeefbcc1f1be365d208281256e0da8af2c4d2c58f8be31d48a8860b",
+      "request_id": "req_01a0c64f8f06726d8c8d8cea490c1d17",
+      "execution_status": "completed"
+    },
+    {
+      "attempt": 4,
+      "case_id": "pilot-04",
+      "record_path": "reports/sdk_records/ab0d178c-ade0-4d55-bb10-72e622182187.json",
+      "record_id": "ab0d178c-ade0-4d55-bb10-72e622182187",
+      "request_sha256": "68ab98495c8d9fa72e323a456541a853a071abcdb9b208a2ed50eaa4c1db6e2d",
+      "request_id": "req_01a0c64f910576babb0e3697e953c672",
+      "execution_status": "completed"
+    },
+    {
+      "attempt": 5,
+      "case_id": "pilot-05",
+      "record_path": "reports/sdk_records/f0148fbb-26eb-453c-a00c-654958936ac5.json",
+      "record_id": "f0148fbb-26eb-453c-a00c-654958936ac5",
+      "request_sha256": "9b75c1e0ffe9f8ee39fe8d55a79fcf34a520ec48dc3ea01a5e257d6ad608dd9d",
+      "request_id": "req_01a0c64f93037a149fc76001c5d20b74",
+      "execution_status": "completed"
+    },
+    {
+      "attempt": 6,
+      "case_id": "pilot-06",
+      "record_path": "reports/sdk_records/e645ef4d-0e39-48ef-acb1-2160c76368fd.json",
+      "record_id": "e645ef4d-0e39-48ef-acb1-2160c76368fd",
+      "request_sha256": "757571c1565f019bfafc57bc42c472339e0c9359ae9a5b8369e8a9b3947b13c5",
+      "request_id": "req_01a0c64f94f37e8a8c55eaeb4b43807e",
+      "execution_status": "completed"
+    },
+    {
+      "attempt": 7,
+      "case_id": "pilot-06",
+      "record_path": "reports/sdk_records/a17cfdf0-a481-441a-ac21-dd11845753fa.json",
+      "record_id": "a17cfdf0-a481-441a-ac21-dd11845753fa",
+      "request_sha256": "757571c1565f019bfafc57bc42c472339e0c9359ae9a5b8369e8a9b3947b13c5",
+      "request_id": "req_01a0c64f96f873d3b562cdf905857bb3",
+      "execution_status": "completed"
+    },
+    {
+      "attempt": 8,
+      "case_id": "pilot-06",
+      "record_path": "reports/sdk_records/8af74dc5-31bf-4751-bc73-180d5dfa741c.json",
+      "record_id": "8af74dc5-31bf-4751-bc73-180d5dfa741c",
+      "request_sha256": "757571c1565f019bfafc57bc42c472339e0c9359ae9a5b8369e8a9b3947b13c5",
+      "request_id": "req_01a0c64f98f1713f805d49d80ca96dab",
+      "execution_status": "completed"
+    }
+  ],
+  "note": "Eight sequential SDK calls using unchanged canonical inputs. This is a small integration and repeatability check, not a clinical benchmark.",
+  "completed_at_utc": "2026-09-21T23:31:40.391158+00:00",
+  "attempted_requests": 8,
+  "completed_requests": 8,
+  "unattempted_sequence": []
+}

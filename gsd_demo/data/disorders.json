@@ -1,0 +1,63 @@
+{
+  "version": "0.2.0",
+  "review_status": "Author-curated educational criteria; not independently clinically reviewed",
+  "source_review_date": "2026-09-21",
+  "scope": "Five named glycogen storage disorders, not a complete clinical differential",
+  "disorders": [
+    {
+      "id": "von_gierke_gsd_i",
+      "label": "Von Gierke disease (GSD I)",
+      "criteria_path": "questions.diagnosis.criteria.von_gierke_gsd_i",
+      "references": [
+        {
+          "title": "GeneReviews: Von Gierke disease (GSD I)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK1312/"
+        }
+      ]
+    },
+    {
+      "id": "pompe_gsd_ii",
+      "label": "Pompe disease (GSD II)",
+      "criteria_path": "questions.diagnosis.criteria.pompe_gsd_ii",
+      "references": [
+        {
+          "title": "GeneReviews: Pompe disease (GSD II)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK1261/"
+        }
+      ]
+    },
+    {
+      "id": "cori_forbes_gsd_iii",
+      "label": "Cori/Forbes disease (GSD III)",
+      "criteria_path": "questions.diagnosis.criteria.cori_forbes_gsd_iii",
+      "references": [
+        {
+          "title": "GeneReviews: Cori/Forbes disease (GSD III)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK26372/"
+        }
+      ]
+    },
+    {
+      "id": "mcardle_gsd_v",
+      "label": "McArdle disease (GSD V)",
+      "criteria_path": "questions.diagnosis.criteria.mcardle_gsd_v",
+      "references": [
+        {
+          "title": "GeneReviews: McArdle disease (GSD V)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK1344/"
+        }
+      ]
+    },
+    {
+      "id": "hers_gsd_vi",
+      "label": "Hers disease (GSD VI)",
+      "criteria_path": "questions.diagnosis.criteria.hers_gsd_vi",
+      "references": [
+        {
+          "title": "GeneReviews: Hers disease (GSD VI)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK5941/"
+        }
+      ]
+    }
+  ]
+}

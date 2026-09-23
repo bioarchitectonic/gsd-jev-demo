@@ -1,0 +1,78 @@
+{
+  "version": "0.2.0",
+  "created_at_utc": "2026-09-21T21:47:02.735157+00:00",
+  "status": "offline_verified_live_unobserved",
+  "python": "3.12.14",
+  "typesafe_sdk": "0.7.1",
+  "demo": "0.2.0",
+  "requested_model": "jev-1.13.0",
+  "test_result": {
+    "passed": 50,
+    "failed": 0,
+    "elapsed_seconds": 0.17,
+    "network_mode": "mock transport only"
+  },
+  "dependency_check": "No broken requirements found.",
+  "archive_integrity": {
+    "original_contents_verified": 77,
+    "hashes_match": true,
+    "concurrent_guide_formatting_edit_preserved_separately_from_original": true
+  },
+  "real_requests_sent_by_this_implementation": 0,
+  "real_responses_imported": 0,
+  "user_playground_session_status": "Not inspected; no claim about user-run results",
+  "mock_records": [
+    "offline/09f840b8-abe7-4734-b186-3f6cbc27f561.json",
+    "offline/0eef90b2-0847-42c5-92b7-f9b3fe65eb93.json",
+    "offline/169ebbac-1e79-4008-97c2-619cc5d02369.json",
+    "offline/1cc94351-acdd-4bc9-aed7-c386fcf5d4d2.json",
+    "offline/1dbc25ef-35ec-48e8-b302-3c13c90e9e1c.json",
+    "offline/23c0be45-1e6e-4d24-bf6b-0cc9cb093354.json",
+    "offline/5e6957da-de01-4e04-8a60-282458c7fbe7.json",
+    "offline/6ef4121b-b972-4d55-aacb-a2eeff269f23.json",
+    "offline/8b0582a3-115a-4ac7-a48f-fb3ef7d31188.json",
+    "offline/8e0c737c-33a2-4509-9278-e0cadb4379d9.json",
+    "offline/974d5397-c66f-4be0-80d9-c1cf4b47b2e5.json",
+    "offline/be3f9cb0-2aa2-4741-ae74-868753c50b28.json",
+    "offline/c6d49305-d5e7-4430-8d55-02f7cd373463.json",
+    "offline/ce37771e-b514-4905-b507-4f91708cfa23.json",
+    "offline/d91aadde-dcd4-40e1-9069-a6eb5e6c0339.json",
+    "offline/e8cdb5af-fb8e-4896-916d-c658729c8389.json",
+    "offline/ed7ee3af-6a04-4282-b6fd-1950d0c7e5a4.json",
+    "offline/ee6285ad-1e73-4045-8481-6d9d98c4fe0d.json"
+  ],
+  "pilot_execution": [
+    {
+      "case_id": "pilot-01",
+      "status": "not_run_by_implementation",
+      "observed_model_choice": null
+    },
+    {
+      "case_id": "pilot-02",
+      "status": "not_run_by_implementation",
+      "observed_model_choice": null
+    },
+    {
+      "case_id": "pilot-03",
+      "status": "not_run_by_implementation",
+      "observed_model_choice": null
+    },
+    {
+      "case_id": "pilot-04",
+      "status": "not_run_by_implementation",
+      "observed_model_choice": null
+    },
+    {
+      "case_id": "pilot-05",
+      "status": "not_run_by_implementation",
+      "observed_model_choice": null
+    },
+    {
+      "case_id": "pilot-06",
+      "status": "not_run_by_implementation",
+      "observed_model_choice": null
+    }
+  ],
+  "report_scope": "historical_offline_verification_before_playground_import",
+  "superseded_by": "repository_verification.json"
+}

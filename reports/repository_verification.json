@@ -1,0 +1,107 @@
+{
+  "created_at_utc": "2026-09-22T01:40:45.196085+00:00",
+  "project_version": "0.2.0",
+  "python": "3.12.14",
+  "typesafe_sdk": "0.7.1",
+  "requested_and_returned_model": "jev-1.13.0",
+  "verification_status": "passed_with_documented_local_launcher_workaround",
+  "tests": {
+    "passed": 55,
+    "failed": 0,
+    "elapsed_seconds": 0.83,
+    "execution": "Rebuilt wheel in a clean Python 3.12 environment; mocked SDK transport only."
+  },
+  "wheel": {
+    "built_and_installed": true,
+    "canonical_data_packaged": true,
+    "mit_license_packaged": true,
+    "sha256": "d00e2f2a481fec9a2d412dc4c994bd8137e1016c789866e111f277d6ad7f45fb"
+  },
+  "cli_checks": [
+    {
+      "name": "dependency_consistency",
+      "exit_code": 0
+    },
+    {
+      "name": "console_launcher",
+      "exit_code": 0
+    },
+    {
+      "name": "readme_file_example",
+      "exit_code": 0
+    },
+    {
+      "name": "all_case_listing",
+      "exit_code": 0
+    }
+  ],
+  "dependency_check": "No broken requirements found.",
+  "original_v2_preservation": {
+    "files_verified": 91,
+    "all_sha256_unchanged": true
+  },
+  "raw_evidence_preservation": {
+    "png_rtf_and_response_files_verified": 18,
+    "byte_identical": true
+  },
+  "records_reinterpreted_without_change": 32,
+  "canonical_requests_verified": 18,
+  "live_sdk_requests": {
+    "attempted": 8,
+    "completed": 8,
+    "failed": 0,
+    "automatic_retries": 0,
+    "manifest": "sdk_run_manifest.json"
+  },
+  "playground_imported_responses": 6,
+  "separate_evaluation_cases": {
+    "exported": 12,
+    "live_requests": 0
+  },
+  "new_offline_mock_replay_records": 18,
+  "provenance_paths_and_hashes_verified": true,
+  "credential_scan": "No locally configured API key occurs in repository deliverables; the key file is outside this repository.",
+  "git": {
+    "branch": "main",
+    "commits": 0,
+    "staged_files": 0,
+    "remotes": 0,
+    "push_performed": false
+  },
+  "local_environment_note": "Literal double quotes in an environment path break the pip-generated console wrapper. The module command works; the console entry point passes in a temporary path without quotes.",
+  "setuptools": "83.0.0",
+  "hygiene": {
+    "status": "passed",
+    "dependency_audit": {
+      "tool": "pip-audit",
+      "version": "2.10.1",
+      "service": "PyPI",
+      "pinned_dependencies_checked": 19,
+      "skipped": 0,
+      "known_vulnerabilities": 0
+    },
+    "static_analysis": {
+      "tool": "Ruff",
+      "version": "0.16.8",
+      "rules": "F",
+      "findings": 0
+    },
+    "changes": [
+      "Updated both setuptools pins from 82.0.1 to 83.0.0.",
+      "Added the existing eval-06 vignette as a runnable file-input example and corrected the README.",
+      "Removed one unused test import.",
+      "Documented the local quoted-path console-launcher workaround."
+    ],
+    "resolved_advisory": {
+      "id": "CVE-2026-59890",
+      "url": "https://github.com/pypa/setuptools/security/advisories/GHSA-h35f-9h28-mq5c",
+      "fix_release": "https://setuptools.pypa.io/en/latest/history.html#v83-0-0"
+    },
+    "secrets_and_personal_paths": "None detected in Git-eligible files using known-key and pattern checks.",
+    "screenshots": "Six inspected: no owner, GPS, email, or local-path metadata detected; Screenshot EXIF markers retained.",
+    "raw_evidence": "All original PNG, RTF, JSON response, and execution-record bytes retained; six JSON response files intentionally retain their original missing final newline.",
+    "runtime_code_and_canonical_inputs_changed": false,
+    "new_jev_api_calls": 0,
+    "pre_hygiene_files_archived_outside_repository": 5
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "artifact_version": "0.2.0",
+  "created_at_utc": "2026-09-21T22:37:22.415738+00:00",
+  "scope": "User-supplied Playground outputs; no new API requests made during import",
+  "responses_imported": 6,
+  "screenshot_visible_results_matched": 6,
+  "raw_model_choices_matching_reference": 6,
+  "display_statuses_matching_reference": 5,
+  "import_failures": 0,
+  "returned_models": [
+    "jev-1.13.0"
+  ],
+  "records": [
+    {
+      "case_id": "pilot-01",
+      "record_path": "reports/playground_records/7c2607bd-cb18-4773-94ec-33b31fee98d4.json",
+      "source_evidence": {
+        "rtf_path": "playground/pilot-01/pilot-01-output-json.rtf",
+        "rtf_sha256": "ba83fa48985ce68ef282615d0cdbbdda4512146eebc535e7420cb38f0a5259d4",
+        "extracted_json_path": "playground/pilot-01/response.json",
+        "extracted_json_sha256": "b28338647e0881b6c6bfd5fc53063d97716f227cc25d1e3d21fe26d6aa7cb40a",
+        "screenshot_path": "playground/pilot-01/Screenshot 2026-09-21 at 6.29.24 PM.png",
+        "screenshot_sha256": "0c49b329b51ccb812458a2729aa4fd9a7e60ddba7d16e526d0a30ff13ae959fe",
+        "extraction": "/usr/bin/textutil -convert txt -stdout; exact UTF-8 text saved without editing JSON values",
+        "screenshot_visible_answer_matches_json": true,
+        "screenshot_observations": {
+          "model_selector": "jev-latest",
+          "choice": "von_gierke_gsd_i",
+          "selected_probability": 1.0,
+          "model_confidence": 1.0,
+          "visible_probabilities": {
+            "von_gierke_gsd_i": 1,
+            "pompe_gsd_ii": 0,
+            "none_of_the_above": 0
+          },
+          "rounded_evaluation_ms": 96,
+          "additional_uninterpreted_time_ms": 222
+        },
+        "request_binding": "Canonical local request associated by the user-supplied case folder. Full submitted state and option criteria are not captured in these response screenshots.",
+        "model_binding": "Screenshots show jev-latest; each supplied response resolves to jev-1.13.0. The saved canonical request uses the explicit version."
+      }
+    },
+    {
+      "case_id": "pilot-02",
+      "record_path": "reports/playground_records/5638831a-e72a-4e50-87ba-13e382344d22.json",
+      "source_evidence": {
+        "rtf_path": "playground/pilot-02/pilot-02-output-json.rtf",
+        "rtf_sha256": "4585903536a5f60b6690c514ac8201f73893bbcc3dd6aad3dc79c2431618fd9e",
+        "extracted_json_path": "playground/pilot-02/response.json",
+        "extracted_json_sha256": "94ffa5aef4813450079844e16508511937e3da9407b99f318b64c8271987fb49",
+        "screenshot_path": "playground/pilot-02/Screenshot 2026-09-21 at 6.27.58 PM.png",
+        "screenshot_sha256": "fdc5465c1318fe2c80b47b4984eed4377e1d0798aa261a11591b452f91de4df1",
+        "extraction": "/usr/bin/textutil -convert txt -stdout; exact UTF-8 text saved without editing JSON values",
+        "screenshot_visible_answer_matches_json": true,
+        "screenshot_observations": {
+          "model_selector": "jev-latest",
+          "choice": "pompe_gsd_ii",
+          "selected_probability": 1.0,
+          "model_confidence": 1.0,
+          "visible_probabilities": {
+            "pompe_gsd_ii": 1,
+            "von_gierke_gsd_i": 0,
+            "none_of_the_above": 0
+          },
+          "rounded_evaluation_ms": 76,
+          "additional_uninterpreted_time_ms": 150
+        },
+        "request_binding": "Canonical local request associated by the user-supplied case folder. Full submitted state and option criteria are not captured in these response screenshots.",
+        "model_binding": "Screenshots show jev-latest; each supplied response resolves to jev-1.13.0. The saved canonical request uses the explicit version."
+      }
+    },
+    {
+      "case_id": "pilot-03",
+      "record_path": "reports/playground_records/a44cd02d-5d9d-4e08-ac34-a47daa2c6aa7.json",
+      "source_evidence": {
+        "rtf_path": "playground/pilot-03/pilot-03-output-json.rtf",
+        "rtf_sha256": "67873d4f0b45b1d55ff82a98001a2c3d966472b15b66b167e4fed471f543b1cc",
+        "extracted_json_path": "playground/pilot-03/response.json",
+        "extracted_json_sha256": "2709a07db9f5d988fc86b5c792e01b5da7f517130a1e240e563ff65c37a4093b",
+        "screenshot_path": "playground/pilot-03/Screenshot 2026-09-21 at 6.26.40 PM.png",
+        "screenshot_sha256": "6cf02b5a2f2cda5f38385b5cfd9debc1f0954f3b48c2a666bbf9993932940378",
+        "extraction": "/usr/bin/textutil -convert txt -stdout; exact UTF-8 text saved without editing JSON values",
+        "screenshot_visible_answer_matches_json": true,
+        "screenshot_observations": {
+          "model_selector": "jev-latest",
+          "choice": "mcardle_gsd_v",
+          "selected_probability": 1.0,
+          "model_confidence": 1.0,
+          "visible_probabilities": {
+            "mcardle_gsd_v": 1,
+            "hers_gsd_vi": 0,
+            "von_gierke_gsd_i": 0
+          },
+          "rounded_evaluation_ms": 99,
+          "additional_uninterpreted_time_ms": 190
+        },
+        "request_binding": "Canonical local request associated by the user-supplied case folder. Full submitted state and option criteria are not captured in these response screenshots.",
+        "model_binding": "Screenshots show jev-latest; each supplied response resolves to jev-1.13.0. The saved canonical request uses the explicit version."
+      }
+    },
+    {
+      "case_id": "pilot-04",
+      "record_path": "reports/playground_records/13be87b2-9571-48c4-832e-4baa41533e91.json",
+      "source_evidence": {
+        "rtf_path": "playground/pilot-04/pilot-04-output-json.rtf",
+        "rtf_sha256": "8404b1f8ce8c00992296e773a3a6e0f3caba5a8ab9c966f4c50e065392cd4331",
+        "extracted_json_path": "playground/pilot-04/response.json",
+        "extracted_json_sha256": "d52ea8934cde1f7a95a16736e0eeecd7efe319894b84f99f4e2184bd67388e2c",
+        "screenshot_path": "playground/pilot-04/Screenshot 2026-09-21 at 6.25.12 PM.png",
+        "screenshot_sha256": "0da4d6a79d75fc41a6acf479c76672c99c57e3232014f4481bedf6f59036eb04",
+        "extraction": "/usr/bin/textutil -convert txt -stdout; exact UTF-8 text saved without editing JSON values",
+        "screenshot_visible_answer_matches_json": true,
+        "screenshot_observations": {
+          "model_selector": "jev-latest",
+          "choice": "cori_forbes_gsd_iii",
+          "selected_probability": 1.0,
+          "model_confidence": 1.0,
+          "visible_probabilities": {
+            "cori_forbes_gsd_iii": 1,
+            "mcardle_gsd_v": 0,
+            "insufficient_information": 0
+          },
+          "rounded_evaluation_ms": 89,
+          "additional_uninterpreted_time_ms": 158
+        },
+        "request_binding": "Canonical local request associated by the user-supplied case folder. Full submitted state and option criteria are not captured in these response screenshots.",
+        "model_binding": "Screenshots show jev-latest; each supplied response resolves to jev-1.13.0. The saved canonical request uses the explicit version."
+      }
+    },
+    {
+      "case_id": "pilot-05",
+      "record_path": "reports/playground_records/43201430-3afa-40bb-acd9-a23300d1f1e9.json",
+      "source_evidence": {
+        "rtf_path": "playground/pilot-05/pilot-05-output-json.rtf",
+        "rtf_sha256": "912878f61e4ce472fa99f83e99b5c1c24540e6189e5ded5132092da215d17b4f",
+        "extracted_json_path": "playground/pilot-05/response.json",
+        "extracted_json_sha256": "e3a7a394da41988bc867f8238fca7086b5beb8d667a5e4bb5fa23e637f9c5880",
+        "screenshot_path": "playground/pilot-05/Screenshot 2026-09-21 at 6.24.01 PM.png",
+        "screenshot_sha256": "393da82ebc869eacf9820268645d427fd461b9a68ee013507ef1bbcec099e2e2",
+        "extraction": "/usr/bin/textutil -convert txt -stdout; exact UTF-8 text saved without editing JSON values",
+        "screenshot_visible_answer_matches_json": true,
+        "screenshot_observations": {
+          "model_selector": "jev-latest",
+          "choice": "hers_gsd_vi",
+          "selected_probability": 1.0,
+          "model_confidence": 1.0,
+          "visible_probabilities": {
+            "hers_gsd_vi": 1,
+            "mcardle_gsd_v": 0,
+            "von_gierke_gsd_i": 0
+          },
+          "rounded_evaluation_ms": 119,
+          "additional_uninterpreted_time_ms": 222
+        },
+        "request_binding": "Canonical local request associated by the user-supplied case folder. Full submitted state and option criteria are not captured in these response screenshots.",
+        "model_binding": "Screenshots show jev-latest; each supplied response resolves to jev-1.13.0. The saved canonical request uses the explicit version."
+      }
+    },
+    {
+      "case_id": "pilot-06",
+      "record_path": "reports/playground_records/db9da11f-d714-4caf-9440-8789df180bef.json",
+      "source_evidence": {
+        "rtf_path": "playground/pilot-06/pilot-06-output-json.rtf",
+        "rtf_sha256": "8362a1b8b640732d08eef84b36e39747149ae3863624eb2715fb31b5c732749b",
+        "extracted_json_path": "playground/pilot-06/response.json",
+        "extracted_json_sha256": "dc75d0927587734cd4f1212a785b4cdeaf27a3fb47ab27d2766f298e6e77083b",
+        "screenshot_path": "playground/pilot-06/Screenshot 2026-09-21 at 6.18.05 PM.png",
+        "screenshot_sha256": "3820a96cab984cae7d7c8178ef7d5aeca223190da361a1224012d44361c5fc73",
+        "extraction": "/usr/bin/textutil -convert txt -stdout; exact UTF-8 text saved without editing JSON values",
+        "screenshot_visible_answer_matches_json": true,
+        "screenshot_observations": {
+          "model_selector": "jev-latest",
+          "choice": "insufficient_information",
+          "selected_probability": 0.72,
+          "model_confidence": 0.68,
+          "visible_probabilities": {
+            "insufficient_information": 0.72,
+            "hers_gsd_vi": 0.21,
+            "cori_forbes_gsd_iii": 0.07,
+            "mcardle_gsd_v": 0,
+            "none_of_the_above": 0,
+            "pompe_gsd_ii": 0,
+            "von_gierke_gsd_i": 0
+          },
+          "rounded_evaluation_ms": 71,
+          "additional_uninterpreted_time_ms": 148
+        },
+        "request_binding": "Canonical local request associated by the user-supplied case folder. Full submitted state and option criteria are not captured in these response screenshots.",
+        "model_binding": "Screenshots show jev-latest; each supplied response resolves to jev-1.13.0. The saved canonical request uses the explicit version."
+      }
+    }
+  ]
+}

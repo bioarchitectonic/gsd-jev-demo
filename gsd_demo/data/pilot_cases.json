@@ -1,0 +1,83 @@
+{
+  "version": "0.2.0",
+  "split": "pilot",
+  "label_status": "Author-defined teaching expectations; not a clinical or independently adjudicated benchmark",
+  "cases": [
+    {
+      "id": "pilot-01",
+      "family_id": "v2-pilot-01",
+      "title": "Fasting hepatic biochemical pattern",
+      "vignette": "A 6-month-old infant becomes lethargic when feeding is delayed. Examination shows a markedly enlarged liver. During an untreated fasting episode, glucose is low and lactate, uric acid, and triglycerides are elevated. Which glycogen storage disorder best explains this presentation?",
+      "source_type": "original_synthetic_educational_vignette",
+      "expected": {
+        "choice": "von_gierke_gsd_i",
+        "status": "diagnosis_selected"
+      },
+      "teaching_note": "An overall hepatic biochemical pattern without a diagnosis name in the vignette."
+    },
+    {
+      "id": "pilot-02",
+      "family_id": "v2-pilot-02",
+      "title": "Infantile cardiac and muscle pattern",
+      "vignette": "A 3-month-old infant has poor head control, profound hypotonia, feeding difficulty, and progressive respiratory distress. Echocardiography shows hypertrophic cardiomyopathy. CK is elevated. Which glycogen storage disorder is the most likely explanation?",
+      "source_type": "original_synthetic_educational_vignette",
+      "expected": {
+        "choice": "pompe_gsd_ii",
+        "status": "diagnosis_selected"
+      },
+      "teaching_note": "Jev must integrate the infantile cardiac and muscle pattern."
+    },
+    {
+      "id": "pilot-03",
+      "family_id": "v2-pilot-03",
+      "title": "Exercise intolerance with second wind",
+      "vignette": "A 19-year-old develops painful muscle cramps and rapid fatigue shortly after starting to run. After slowing down and resting briefly, he can resume exercise more comfortably. Intense exertion has caused dark urine and elevated CK. Which glycogen storage disorder best explains this pattern?",
+      "source_type": "original_synthetic_educational_vignette",
+      "expected": {
+        "choice": "mcardle_gsd_v",
+        "status": "diagnosis_selected"
+      },
+      "teaching_note": "Recognition of exertional symptoms and the second-wind pattern."
+    },
+    {
+      "id": "pilot-04",
+      "family_id": "v2-pilot-04",
+      "title": "Combined hepatic and muscle involvement",
+      "vignette": "An 8-year-old has hepatomegaly and documented ketotic hypoglycemia during overnight fasting. Fasting lactate is normal. Proximal muscle weakness and persistently elevated CK are present. Which glycogen storage disorder best explains the combined findings?",
+      "source_type": "original_synthetic_educational_vignette",
+      "expected": {
+        "choice": "cori_forbes_gsd_iii",
+        "status": "diagnosis_selected"
+      },
+      "teaching_note": "A hepatic pattern accompanied by muscle findings supports III among these options."
+    },
+    {
+      "id": "pilot-05",
+      "family_id": "v2-pilot-05",
+      "title": "Hepatic pattern with specific enzyme evidence",
+      "vignette": "A 4-year-old has growth delay, hepatomegaly, and ketotic fasting hypoglycemia. Fasting lactate is normal. Enzyme testing shows markedly reduced liver glycogen phosphorylase activity with preserved glycogen debranching activity. Which glycogen storage disorder explains these findings?",
+      "source_type": "original_synthetic_educational_vignette",
+      "expected": {
+        "choice": "hers_gsd_vi",
+        "status": "diagnosis_selected"
+      },
+      "teaching_note": "Specific enzyme evidence supplies the distinction that a liver-only phenotype lacks."
+    },
+    {
+      "id": "pilot-06",
+      "family_id": "v2-pilot-06",
+      "title": "Undistinguished liver-only presentation",
+      "vignette": "A child has hepatomegaly, ketotic fasting hypoglycemia, and normal fasting lactate. CK and muscle examination are normal. No distinguishing enzyme or genetic studies have been performed. The vignette provides no other clinical details.",
+      "source_type": "original_synthetic_educational_vignette",
+      "expected": {
+        "choice": "insufficient_information",
+        "status": "insufficient_information",
+        "compatible_diagnoses": [
+          "cori_forbes_gsd_iii",
+          "hers_gsd_vi"
+        ]
+      },
+      "teaching_note": "Normal muscle findings do not resolve IIIb versus VI."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "diagnosis": {
+      "type": "choice",
+      "choice": "insufficient_information",
+      "confidence": 0.68,
+      "probabilities": {
+        "hers_gsd_vi": 0.21,
+        "mcardle_gsd_v": 0,
+        "none_of_the_above": 0,
+        "insufficient_information": 0.72,
+        "pompe_gsd_ii": 0,
+        "cori_forbes_gsd_iii": 0.07,
+        "von_gierke_gsd_i": 0
+      },
+      "stats": {}
+    }
+  },
+  "usage": {
+    "input_tokens": 1544,
+    "output_tokens": 107
+  },
+  "request_id": "playground_1dff67e241dcedc4a0698fd56957d08783b",
+  "evaluation_time_ms": 71.10985399049241
+}
